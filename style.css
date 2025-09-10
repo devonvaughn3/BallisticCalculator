@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #001f3f;
+  text-align: center;
+  padding: 20px;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #001f3f;
+    color: white;
+  }
+  th, td {
+    border: 1px solid #555;
+  }
+}
